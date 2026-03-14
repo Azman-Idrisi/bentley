@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #080F0B;
+  --color-bg-section: #14241B;
+  --color-bg-card: #16271E;
+  --color-accent: #1ED760;
+  --color-accent-deep: #1B3A24;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #B6C2B7;
+  --color-border: #223528;
+  --color-border-btn: #2A3B2E;
+  --color-border-accent: rgba(30, 215, 96, 0.12);
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #060D08;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(30, 215, 96, 0.04) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 20% 50%, rgba(30, 215, 96, 0.03) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 40% at 80% 80%, rgba(30, 215, 96, 0.03) 0%, transparent 50%);
+  background-attachment: fixed;
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
