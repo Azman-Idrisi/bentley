@@ -143,7 +143,7 @@ export default function MullinerSection() {
           </div>
           <div className="mulliner-img" style={imgContainerStyle}>
             <img
-              src={img2}
+              src={"https://lh3.googleusercontent.com/aida-public/AB6AXuDs3MUKWeBeqWc1gfi_SbjVoW2aJOpgWq-jBh1WmOaEiNKjuJoCJ2Oe0jcxH7WEvw9f8RQXYTSxeEVYSudFRWOSXVSw-KtQ1OgayK4ohj6W5z_EB5MttAquL7ovZBMjoRbX0YVFJmG62-_kWKxo1fdwwifhL4nsuhQJYtbyNajutdAKJ2EQrR7-OsvhIgDREAcvFW5JOq2LbYfj-xEsyWQ_daIy7x6k4SfHgxnoACupnFsUvrgdSzS0LHM5DVsDCpdV5vbmhHRWTUZP"}
               alt="Bentley engine bay with precision engineering"
               style={imgStyle}
               loading="lazy"
